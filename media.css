@@ -1,0 +1,373 @@
+/* navbar */
+
+@media screen and (max-width:1280px) {
+  .header{
+      padding:34px 25px;
+      height:101px;
+  }
+  
+  .logo h2{
+      font-size: 22px;
+  }
+
+  .navBtn{
+      font-size: 16px;
+      margin-left:2rem;
+  }
+
+  .btn{
+      width:150px;
+      height:47px
+  }
+
+  .mainNav .mainNavList{
+    font-size: 16px;
+    gap:5px;
+  }
+
+  .title{
+    font-size: 50px;
+  }
+
+  .card-two .image-wrapper-one{
+    margin-top: 155px;
+  }
+  
+
+  .mainNav .navBtn a:nth-child(3){
+      width: 100px;
+      height:47px;
+  }
+
+  .title{
+    font-size: 50px;
+  }
+
+  .card-two .image-wrapper-one{
+    margin-top: 160px;
+
+  }
+  
+
+
+}
+/* this first is clear  */
+@media screen and (max-width:1190px) {
+/* ACTION */
+.grid{
+  grid-template-columns: repeat(2,1fr);
+}
+.mt-minus{
+  margin-top:-2rem;
+}
+
+}
+
+
+@media screen and (max-width:1120px) {
+  .fig-con .btn-wrapper button{
+  font-size: 20px;
+  
+} 
+.card > div .paragraph{
+  font-size: 30px;
+}
+
+.cardOne {
+  padding: 31px;
+ 
+  }
+
+  .cardOne p{
+    margin-top: 20px;
+    margin-bottom: 5rem;
+  }
+
+  .cardOne h3{
+    font-size: 25px;
+    font-weight:400;
+  }
+
+  .card-two{
+    font-size:40px;
+  }
+
+  .title{
+    margin-top: 85px;
+  }
+  
+  .cardOne h3 span{
+    font-size:20px;
+  }
+  }
+  
+
+
+
+  /* the second is cleAR  */
+
+
+
+
+ 
+
+
+ @media screen and (max-width:991px) {
+
+  .logo{
+    width:100%;
+    justify-content: flex-start;
+  }
+    .mainItem,
+    .mainNav .mainNavList .navBtn a:nth-child(1),
+    .mainNav .mainNavList .navBtn a:nth-child(3){
+        display:none;
+    }
+
+
+    .btn-mobile-nav{
+        display:block;
+        font-size: 30px;
+      }
+
+      .btn-mobile-nav > [name="close"] {
+        display:none;
+      }
+
+      /* herosection */
+      .heroText h1{
+        font-size: 50px;
+
+      }
+
+      .heroText p{
+        font-size: 20px;
+        
+      }
+
+      .heroFrels .toggleSwitch{
+        width:39px;
+        height:20px;
+      }
+
+      .heroFrels .toggleSwitch::after{
+        width:20px;
+        height:20px;
+      }
+
+
+/* TALENTHEAD */
+.talentHead{
+  font-size: 46px;
+  margin-bottom: 120%px;
+}
+
+.talentHead p span{
+  font-size: 33px;
+
+}
+.talentImageCard{
+  margin-bottom: 180px;
+}
+
+
+.talentImageCard .container{
+  width: 300px;
+  height: 400px;
+
+}  
+.talentImageCard .container .inCard{
+  font-size: 30px;
+}
+
+.book{
+  width:300px;
+  height:250px;
+  top:190px;
+}
+.keyBoard, .phone{
+  width:300px;
+  height:200px;
+  top:190px;
+}
+.micro {
+  width: 204px;
+  bottom: 10Px;
+  }
+
+  .lFrame{
+    width:250px;
+  }
+
+  /* talent wrapper section */
+ .talent-wrapper{
+  width:80%;
+  align-self: center;
+  justify-self: center;
+  margin-left:6rem;
+  display:flex;
+ }
+ .t--content{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:38px;
+  display:flex;
+  padding:3rem 4.5rem;
+  text-align: center;
+ }
+
+ .t--content p{
+  font-size: 60px;
+ }
+
+ .t--content > p span{
+  font-size: 60px;
+ }
+
+ .t--content > button{
+  width:50%;
+ }
+
+ .talent-low-wrapper{
+  justify-content: center;
+  flex-direction: column;
+  width:50%;
+ }
+
+ /* cardrow */
+ .cardRow{
+  display:flex;
+flex-wrap: wrap;
+gap:20px;
+padding:1em 3em;
+margin-bottom:6rem;
+
+ 
+ }
+
+ .cardOne h3{
+  font-size: 45px;
+ }
+
+ .card h3 span{
+  font-size: 40px;
+  font-weight:400
+ }
+
+ .card-two{
+  display:flex;
+  align-items: center;
+  justify-content:center ;
+  flex-direction: column;
+
+ }
+
+ .card-two .image-wrapperOne{
+   align-items: center;
+    justify-content: center;
+    order:-1;
+    padding-top:2px;
+ }
+ .card-two > .titleCon > .direction {
+  display:flex;
+  font-size: 16px;
+  margin-bottom: 40px;
+  margin-top: 5rem;
+ }
+
+ .title{
+  margin-top: -40px;
+  font-size: 36px;
+  
+ }
+
+ .direction p {
+  font-size: 20px;
+
+}
+.grid{
+  display:grid;
+  padding-bottom:130px;
+  grid-template-columns:1fr;
+}
+
+footer{
+  background-image: none;
+}
+
+}
+
+ /* this third is clear  */
+
+ /* phone  */
+
+@media screen and (max-width:500px) {
+    .logo h2, .mainNavList .navBtn a:nth-child(2){
+    display:none;
+    }
+
+    .logo img{
+        width:100px;
+    }
+    .heroText h1{
+        font-size: 40px;
+        padding:0.3em;
+ }
+
+    :is(.heroFrelsOne, .heroFrelsTwo) {
+        font-size: 15px;
+    }
+
+    .fig-con{
+      font-size: 14px;
+    }
+    
+    .figcon .btn-wrapper button{
+      font-size: 13px;
+      padding:0.6rem
+
+    }
+
+    .card-wrapper{
+      width:100%;
+    }
+    .talent-wrapper{
+      width:100%;
+      align-self: normal;
+      justify-self:normal;
+      margin:0 auto;
+     }
+     .talent-low-wrapper{
+      width: 100%;
+
+     }
+
+     .cardOne h3{
+      font-size: 45px;
+     }
+    
+     .cardOne h3 span{
+      font-size: 40px;
+      font-weight:400
+     }
+    
+     .lower-wrapper .content{
+      font-size:16px;
+      padding:2rem 1rem;
+     }
+     footer{
+      padding:30px;
+     }
+
+     .footer-columns ul a{
+      font-size: 14px;
+     }
+}
+
+
+@media screen and (max-width:1024px) {
+  .mainNav .mainNavList{
+    font-size: 14px;
+  }
+}
