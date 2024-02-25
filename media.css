@@ -51,7 +51,7 @@
 
 
 }
-/* this first is clear  */
+/* this first is clear . */
 @media screen and (max-width:1190px) {
 /* ACTION */
 .grid{
@@ -218,11 +218,11 @@
  }
 
  .t--content p{
-  font-size: 60px;
+  font-size: 30px;
  }
 
  .t--content > p span{
-  font-size: 60px;
+  font-size: 30px;
  }
 
  .t--content > button{
